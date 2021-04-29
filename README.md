@@ -4,3 +4,5 @@ A simple app that
   1. Displays a Grafana dashboard with webview 
   2. Displays data from firebase 
   3. Receives push notifications with firebase cloud messaging 
+
+Tech Used: Firebase Cloud Messaging, Firestore, Android Studio JAVA
