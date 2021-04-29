@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.airq.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_tina"
+        android:name="com.example.airq.ui.tina.TinaFragment"
+        android:label="@string/menu_tina"
+        tools:layout="@layout/tina_fragment" />
+    <fragment
+        android:id="@+id/nav_george"
+        android:name="com.example.airq.ui.george.GeorgeFragment"
+        android:label="@string/menu_george"
+        tools:layout="@layout/george_fragment" />
+    <fragment
+        android:id="@+id/nav_logs"
+        android:name="com.example.airq.ui.logs.LogsFragment"
+        android:label="@string/menu_logs"
+        tools:layout="@layout/logs_fragment" />
+
+</navigation>
